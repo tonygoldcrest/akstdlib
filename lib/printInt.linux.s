@@ -44,8 +44,8 @@ _printInt:
 	mov x0, #1		// 1 = StdOut
 	mov x1, x6
 	mov x2, x5
-	mov x16, #4		// MacOS write system call
-	svc 0
+	mov x8, #64
+	svc #0
 
 	// free
 	add sp, sp, #32

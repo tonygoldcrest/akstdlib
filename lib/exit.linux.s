@@ -3,5 +3,5 @@
 
 .text
 _exit:
-	mov x16, #1
+	mov x8, #93
 	svc #0
